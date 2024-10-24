@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Vrushabh"
+    },
+    {
+      "id": "2",
+      "name": "Yash"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "1729664428424",
+      "amount": 100,
+      "bileName": "bus",
+      "fromUser": [
+        1
+      ],
+      "toUser": [
+        2
+      ],
+      "timestamp": "2024-10-23T08:32:15.579Z",
+      "isGroupExp": true,
+      "groupId": "1"
+    },
+    {
+      "id": "1729670406787",
+      "amount": 500,
+      "bileName": "bus",
+      "fromUser": [
+        2
+      ],
+      "toUser": [
+        1
+      ],
+      "timestamp": "2024-10-23T08:48:38.663Z",
+      "isGroupExp": true,
+      "groupId": "1"
+    },
+    {
+      "id": "1729672801197",
+      "amount": 100,
+      "bileName": "Food",
+      "fromUser": [
+        1
+      ],
+      "toUser": [
+        2
+      ],
+      "timestamp": "2024-10-23T09:04:43.315Z",
+      "isGroupExp": true,
+      "groupId": "1"
+    },
+    {
+      "id": "1729679357477",
+      "amount": 578,
+      "bileName": "SUB WAY",
+      "fromUser": [
+        1
+      ],
+      "toUser": [
+        1,
+        2
+      ],
+      "timestamp": "2024-10-23T10:29:17.477Z",
+      "isGroupExp": false,
+      "groupId": null
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Goa Trip",
+      "members": [
+        1,
+        2
+      ]
+    }
+  ]
+}

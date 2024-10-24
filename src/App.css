@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+.Home-item,
+.ExpForm-item {
+    width: 50%;
+    background-color: rgba(82, 81, 81, 0.61);
+    border: 1px solid black;
+    margin: 80px auto;
+    padding: 20px;
+    padding-bottom: 75px;
+    text-align: center;
+    border-radius: 8px;
+    color: hsla(0, 0%, 100%, 0.902);
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.GroupBot,
+.SubmitBtn {
+    width: 100%;
+    border: 1px solid #1414144f;
+    display: inline-block;
+    padding: 8px 0;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #1414144f;
+    color: hsla(0, 0%, 100%, 0.902);
+    transition: all 0.3s linear;
+}
+
+.GroupBot:hover,
+.SubmitBtn:hover,
+.AddExp:hover {
+    color: hsla(0, 0%, 100%, 0.902);
+    background-color: #575656;
+    border: 1px solid #575656;
+}
+
+.Friends,
+.Groups,
+.ExpForm {
+    border: 1px solid #77777765;
+    padding: 0 10px;
+    text-align: left;
+    margin: 30px 10px;
+    border-radius: 8px;
+}
+
+.Friends h2,
+.Friends-item,
+.Groups h2,
+.Groups-item,
+.ExpForm h2 {
+    margin: 10px 0;
+}
+
+.border {
+    padding-top: 2px;
+    border-bottom: 1px solid #77777765;
+}
+
+.Friends p,
+.Groups a {
+    margin: 5px 0;
+    padding-left: 10px;
+}
+
+.BDate {
+    font-size: 12px;
+    padding-top: 5px;
+    color: #c0c0c09f;
+}
+
+.AddExp {
+    padding: 5px 15px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 34px;
+    position: absolute;
+    top: calc(100% - 68px);
+    left: calc(100% - 68px);
+    transition: all 0.5s linear;
+}
+
+.AddExp a {
+    color: #c0c0c09f;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: hsla(0, 0%, 100%, 0.902);
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #575656;
+    background-color: rgba(82, 81, 81, 0.61);
+    color: hsla(0, 0%, 100%, 0.902);
+    font-size: 16px;
+}
+
+select {
+    appearance: none;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border: 1px solid #c0c0c09f;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, 0.902);
+    background-color: #1414144f;
+    border: 1px solid #1414144f;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #575656;
+    border-color: #575656;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 0 12px;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.header a {
+    color: #bdbdbdc9;
+}
